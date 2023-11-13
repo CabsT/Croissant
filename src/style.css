@@ -1,0 +1,113 @@
+:root {
+  --bg-color: #fdedf0;
+}
+
+@media (max-width: 600px) {
+  .homepage,
+  .croissant {
+    font-size: 12px;
+  }
+  .contact {
+  font-size: 18px!important;
+}
+  .main-heading,
+  .second-heading {
+    font-size: 16px;
+  }
+  .homepage,
+  div.mt-5 {
+    margin-top: 0 !important;
+  }
+  div.wrapper {
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 200px) {
+  div.wrapper {
+    margin: 5px 80px 30px 0 !important;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-recipe {
+    width: 60px;
+  }
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  padding-left: 40px !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.recipe {
+  color: #117878;
+  font-weight: 600;
+}
+
+.recipe:hover {
+  color: #715473;
+}
+
+div.homepage {
+  padding: 0 !important;
+  margin-left: 0;
+}
+.croissant {
+  max-width: 700px !important;
+  background-color: #f9f9f9;
+  margin-left: 0 !important;
+}
+
+.recipeblock {
+  position: relative;
+  top: -200px;
+  left: 210px;
+}
+.ingredients {
+  list-style-type: none;
+  padding: 0;
+}
+.instructions {
+  padding: 0;
+}
+
+button.btn {
+  border-radius: 3px;
+  width: 100px;
+}
+
+button.btn.i {
+  background-color: pink;
+}
+
+button.btn.f {
+  background-color: lightskyblue;
+  margin-right: 2px;
+}
+button.btn.p {
+  background-color: lightcoral;
+  margin-right: 2px;
+}
+
+.email {
+  text-decoration: none;
+}
+p.contact {
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+}
+
+p.contact a:hover {
+  color: pink;
+}
+
+.container.contactpage{
+  margin: 0;
+  padding: 0;
+}
